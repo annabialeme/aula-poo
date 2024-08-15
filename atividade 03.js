@@ -1,7 +1,7 @@
-const livroObjeto = {
-titulo: "é assim que começa",
-autora: "Colleen Hoover",
-ano: 2022
-}
+const livro = new Object ();
 
-console.log(livroObjeto);
+livro.titulo = "é assim que começa",
+livro.autor = "Colleen Hoover",
+livro.ano = 2022,
+
+console.log(livro);
